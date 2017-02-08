@@ -16,14 +16,17 @@
 2. _Optional, but best practice:_ Create a [virtual env](https://pypi.python.org/pypi/virtualenv). We use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/) to manage our many virtual envs.
 3. _Optional:_ [Activate virtualenv](https://virtualenv.pypa.io/en/stable/userguide/).
 4. Install prerequisites.
+  
   ```
   pip install -r requirements.txt
   ```
 5. Set your Slack bot API token.
-  ```
+ 
+ ```
   export SLACK_BOT_TOKEN='slack_bot_api_token_here'
   ```
 6. Set your BOT_ID.
+  
   ```
   //get bot id
   python ./print_bot_id.py
@@ -32,6 +35,7 @@
   export BOT_ID='slack_bot_id_here'
   ```
 7. Run the bot!
+  
   ```
   python ./birdie.py
   ```
